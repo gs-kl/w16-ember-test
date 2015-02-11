@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900,300);
+
+body {
+  font-family: "Roboto";
+  background-color: #efefef;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+h1{
+  margin: 0;
+  display: inline;
+}
+
+nav{
+  float: right;
+}
+
+header{
+  margin-bottom: 1em;
+  display: block;
+}
+
+button{
+  margin-top: 1em;
+  width: 100%;
+  padding: 1em;
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+  outline: none;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+button:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.container{
+  background-color: white;
+  width: 600px;
+  border: 3px solid #ececec;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 1em;
+
+}
